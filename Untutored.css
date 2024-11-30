@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:wght@700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+#header {
+    border: 1px #5FCAC0;
+    background: transparent !important;
+    border-bottom: 1px solid rgba(128, 208, 199, 0.35);
+}
+body{
+    margin-top: 0;
+}
+.upper{ 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    font: 16px "Open Sans", sans-serif;
+    color: #212529;
+
+}
+.link-box{
+    display: inline-block;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font: 14px Montserrat, sans-serif;
+    justify-content: space-between;
+    margin: 0px 20px -1px 0px;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+
+#home{
+    text-align: center;
+    font-family:'Roboto Condensed', 'sans-serif';
+    position: relative;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+#money{
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    margin: 0px -5px;
+}
+
+h1{
+    color: #ffffff;
+    font: 58px Montserrat , sans-serif;
+    margin: 0px 0px 16px;
+}
+button.searching {
+    color: white;
+    font: 20px 'Roboto Condensed', 'sans-serif';
+    background: #80d0c7;
+    margin: 0px 0px 0px -1px;
+    padding: 25px 25px 25px 20px;
+}
+.searching{
+    color: #212529;
+    font: 16px "Open Sans", sans-serif;
+    background: #ffffff;
+    border-radius: 40px;
+    margin: 0px 0px 0px -1px;
+    padding: 25px 600px 25px 20px;
+    display: inline;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    animation: fadeInUp 0.5s forwards; /* Fade-in effect for sections */
+}
+.searching:hover {
+    transform: translateY(-10px); /* Lift the section on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+#searching{
+    box-sizing: border-box;
+    box-shadow: #212529;
+    border-radius: 50% ;
+}
+h6 {
+    color: #13547a;
+    font: 22px 'Montserrat', 'sans-serif';
+    margin: 0px 0px 8px;
+    
+}
+h2 {
+    text-align: center;
+}
+.links{  
+   align-items: center;   
+   padding: 0px 0px;   
+}
+.second{
+    background-color: #5FCAC0;
+    border-radius: 0px 0px 100px 100px;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0 -5px;
+}
+.knowledge{
+       border-radius: 30px;
+       text-align: left;
+       background: #ffffff;
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+       display: inline-block;
+       margin-right: 15%;
+       color: #000000;
+       font-size: larger;
+       padding-left: 20px;
+       padding-right: 20px;
+       line-height: 20px;
+       transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+       animation: fadeInUp 0.5s forwards; /* Fade-in effect for sections */
+   
+   }
+   .knowledge:hover {
+       transform: translateY(-10px); /* Lift the section on hover */
+       box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+   }
+    .NOVEMBER{
+        border-radius: 20px;
+        margin: 10px 20px;
+        padding: 10px 10px;
+        display: inline;
+        background-color:#ffffff;
+        color: #717275;
+    }
+    .DECEMBER{
+        border-radius: 20px;
+        margin: 10px 20px;
+        padding: 10px 28px;
+        display: inline;
+        background-color:#ffffff;
+        color: #717275;
+    }
+    .JANUARY{
+        border-radius: 20px;
+        margin: 10px 20px;
+        padding: 10px 44px;
+        display: inline;
+        background-color:#ffffff;
+        color: #717275;
+    }
+    .OCTOBER{
+        border-radius: 20px;
+        margin: 10px 20px;
+        padding: 10px 9px;
+        display: inline;
+        background-color:#ffffff;
+        color: #717275;
+    }
+.upcoming{
+    box-sizing: border-box;
+    border-radius: 30px;
+    text-align: left;
+    background: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    margin-left: 15%;
+    margin-right: 2%;
+    float: left;   
+    background-image: url(satya.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    animation: fadeInUp 0.5s forwards; /* Fade-in effect for sections */
+
+}
+.upcoming:hover {
+    transform: translateY(-10px); /* Lift the section on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.boxes{
+    position: relative;
+    bottom: 100px;
+    margin-bottom: 100px;
+    justify-content: center !important;
+    display: flex;
+}
+h3 {
+    text-align: center;
+    color: #000000;
+}
+.third h1 {
+    color: #000000;
+    text-align: center;
+    font: 46px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 30px;
+}
+.topics{
+   text-align: center;   
+   margin: 0px 0px 40px;
+    padding: 0px 12px 0px 0px;
+}   
+.box {   
+    display: inline-block;
+    border-radius: 10px;
+    margin: 0px 20px -1px 0px;
+    padding: 15px 25px;
+    color: #000000;
+    font: 18px sans-serif;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.topics a:visited{
+    color: #717275;
+}
+.topics a:hover{
+    color: #13547a;
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+}
+.thirdtopic{
+    align-items: center !important;
+    margin-bottom: 0%;
+}
+.upsc{
+    color: #000000;
+    font: 16px "Open Sans", sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-align: center;
+    background: #ffffff;
+    width: 30%;
+    float: left; 
+    margin-left: 20px;  
+    padding: 20px;
+    line-height: 20px;
+    margin-right: 40px;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    animation: fadeInUp 0.5s forwards; /* Fade-in effect for sections */
+
+}
+.upsc:hover {
+    transform: translateY(-10px); /* Lift the section on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+.Bank {
+    color: #000000;
+    font: 16px "Open Sans", sans-serif;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 30px;
+    text-align: center;
+    background: #ffffff;
+    width: 30%;
+    float: right; 
+    margin-left: 20px;  
+    padding: 20px;
+    line-height: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+    animation: fadeInUp 0.5s forwards; /* Fade-in effect for sections */
+
+}
+.Bank:hover {
+    transform: translateY(-10px); /* Lift the section on hover */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+
+  a:visited {
+    color: #ffffff;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #13547a;
+    text-decoration-line: underline;
+    text-underline-offset: 20px;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #0000FF;
+  }
+#five {
+    position:static;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 730px;
+    text-align: center;
+}
+.four{
+    background-image: url(Untitled.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 100px 500px;
+    border-radius: 100px 100px 0px 0px;
+    color: #ffffff;
+    margin: 0px 0px 24px;
+    line-height: 40px;
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+
+}
+.apply{
+    padding: 0px 50px 50px}
+#five p{
+    font-size: 20px;
+    text-align: left;
+}
+#five h2{
+    font-size: 2rem;
+    padding-top: 100px;
+    line-height: 40px;
+    text-align: left;
+}
+.foot1 {
+    float: left;
+    padding-left: 250px;
+    line-height: 40px;
+    text-decoration: none;
+}
+footer{
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #5FCAC0;
+}
+.bgupsc{
+    background-image: url(upsclogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
+.bgssc{
+    background-image: url(ssc.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
+.bgbank{
+    background-image: url(bank.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
+.bginsurance{
+    background-image: url(insurance.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
+.bgdefence{
+    background-image: url(defence.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
+.bg12{
+    background-image: url(12th.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px !important;
+    margin: 0px;
+}
